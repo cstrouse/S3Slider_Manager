@@ -1,0 +1,7 @@
+S3Slider_Manager is simple Wordpress plugin for managing the images and pages that the images link to in an S3Slider.  The official S3Slider plugin didn't fit the needs of a client of mine so I created this.  It's quite simple and allows you to set up to four images with links and adjust the transition speed.  It's a work in progress and will be adjusted as I come across things I want it to do.
+
+Install the plugin as usual, activate, and then in your theme file where you want the slider to display include this tag:
+
+<?php s3slider_display(); ?>
+
+For now you'll have to adjust the image dimensions in the inline CSS but that'll be adjustable in the next version.  I was in a rush to push something out that they could use this afternoon.
